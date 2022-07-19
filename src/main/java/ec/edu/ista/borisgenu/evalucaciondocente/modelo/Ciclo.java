@@ -13,7 +13,7 @@ public class Ciclo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_ciclo", nullable = false)
-    private Integer id;
+    private Integer id_ciclo;
 
     @Column(name = "ciclo", length = 45)
     private String ciclo;

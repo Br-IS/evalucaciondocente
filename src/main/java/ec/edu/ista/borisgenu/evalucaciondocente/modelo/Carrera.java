@@ -13,7 +13,7 @@ public class Carrera {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_carrera", nullable = false)
-    private Integer id;
+    private Integer id_carrera;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_periodo_academico")
@@ -24,14 +24,6 @@ public class Carrera {
 
     @Column(name = "descripcion", length = 45)
     private String descripcion;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public Carrera() {
     }

@@ -13,7 +13,7 @@ public class Formulario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_formulario", nullable = false)
-    private Integer id;
+    private Integer id_formulario;
 
     @Column(name = "preguntas", length = 150)
     private String preguntas;

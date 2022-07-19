@@ -14,7 +14,7 @@ public class Evaluacion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_evaluacion", nullable = false)
-    private Integer id;
+    private Integer id_evaluacion;
 
     @Column(name = "calificacion")
     private Integer calificacion;
