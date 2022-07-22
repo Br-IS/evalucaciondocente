@@ -32,6 +32,20 @@ public class RolController {
         return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
     }
 
+    @PutMapping("/update/{id}")
+    public ResponseEntity<Rol> update(@PathVariable Integer id, @RequestBody Rol rol){
+        Rol rolActual = rolService.findById(id);
+
+        if(rolActual == null){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }else{
+            rolActual.setRol(rol.getRol());
+            rolActual.setDescripcion(rol.getDescripcion());
+            rolActual.setFecha_hora_registro(rol.getFecha_hora_registro());
+            return new ResponseEntity<>(rolService.save(rolActual), HttpStatus.OK);
+        }
+    }
+
     @GetMapping("/search/{id}")
     public  ResponseEntity<Rol> search(@PathVariable Integer id){
         return new ResponseEntity<>(rolService.findById(id), HttpStatus.OK);

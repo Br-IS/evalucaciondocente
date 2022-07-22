@@ -40,8 +40,7 @@ public class CicloController {
     public ResponseEntity<Ciclo> update(@PathVariable Integer id, @RequestBody Ciclo c) {
 
         Ciclo listaActual= cicloService.findById(id);
-        listaActual.setNombreCarrera(c.getNombreCarrera());
-        listaActual.setDescripcion(c.getDescripcion());
+
         cicloService.save(listaActual);
 
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);

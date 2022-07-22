@@ -33,6 +33,11 @@ public class EstudianteServiceImpl implements  EstudianteService {
     public void delete(Integer id) {
         estudianteRepository.deleteById(id);
     }
+
+    @Override
+    public Estudiante findByNombre(String nombre) {
+        return estudianteRepository.findByNombre(nombre);
+    }
 }
 
 

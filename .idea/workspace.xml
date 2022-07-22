@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ab314c6-c626-4340-b259-fa57c168bb3d" name="Changes" comment="" />
-    <list id="c725c26f-59f0-4a42-b84e-cb93f263005b" name="Changes by josem" comment="" />
+    <list default="true" id="0ab314c6-c626-4340-b259-fa57c168bb3d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/controller/CicloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/controller/CicloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/controller/EstudianteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/controller/EstudianteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/controller/EvaluacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/controller/EvaluacionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/controller/RolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/controller/RolController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/modelo/Rol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/modelo/Rol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/repository/EstudianteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/repository/EstudianteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/service/EstudianteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/service/EstudianteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/service/impl/EstudianteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/ista/borisgenu/evalucaciondocente/service/impl/EstudianteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
     <list id="d0e73551-1725-4063-8cbd-b90d50daa6af" name="Changes by prisc" comment="" />
     <list id="f538f29b-52ce-414b-a763-afd6dc783ad6" name="Changes by willi" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +38,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.3.21/spring-orm-5.3.21.jar!/org/springframework/orm/jpa/SharedEntityManagerCreator.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="JpbToolWindowState">
@@ -39,7 +51,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
@@ -61,29 +73,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Boris/IdeaProjects/evalucaciondocente&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f3c72431cec93db456e1930d2fcf4d1d&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "last_opened_file_path": "C:/Users/Boris/IdeaProjects/farmacia",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "f3c72431cec93db456e1930d2fcf4d1d"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="EvalucaciondocenteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="evalucaciondocente" />
@@ -105,10 +118,27 @@
       <workItem from="1657926535821" duration="12000" />
       <workItem from="1658185436374" duration="1385000" />
       <workItem from="1658192363586" duration="3401000" />
+      <workItem from="1658196357769" duration="2701000" />
+      <workItem from="1658235161751" duration="3729000" />
+      <workItem from="1658240056207" duration="607000" />
+      <workItem from="1658282009518" duration="12000" />
+      <workItem from="1658286932019" duration="2432000" />
+      <workItem from="1658320984267" duration="2356000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

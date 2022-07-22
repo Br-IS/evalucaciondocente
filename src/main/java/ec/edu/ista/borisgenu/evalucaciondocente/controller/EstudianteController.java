@@ -55,6 +55,13 @@ public class EstudianteController {
     }
 
 
+    //Buscar por nombre
+    @GetMapping("/{nombre}")
+    public Estudiante searchBynombre(@PathVariable String nombre){
+        return estudianteService.findByNombre(nombre);
+    }
+
+
 
 
 

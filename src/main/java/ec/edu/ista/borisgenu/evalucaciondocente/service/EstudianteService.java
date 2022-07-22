@@ -11,4 +11,6 @@ public interface EstudianteService {
     List<Estudiante> findAll();
     void delete(Integer id);
 
+    Estudiante findByNombre(String nombre);
+
 }
